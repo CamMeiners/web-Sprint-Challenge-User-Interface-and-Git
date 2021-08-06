@@ -186,11 +186,13 @@ p {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
+.middle-content .boxes .box10 {
+  color: green;
+}
 .middle-content .boxes .box {
   width: 12.5%;
   height: 100px;
-  background: black;
+  background-color: black;
   margin: 20px 2.5%;
   color: white;
   display: flex;
@@ -234,11 +236,11 @@ footer nav a {
   display: flex;
   justify-content: center;
   justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 1%;
   margin-right: 29%;
   margin-left: 29%;
 }
 .img1 {
-  display: flex;
-  justify-items: center;
-  padding: 2% 0;
+  padding: 2% 28.5%;
 }
