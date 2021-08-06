@@ -137,7 +137,9 @@ body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
 }
-
+a {
+  text-decoration: none;
+}
 h1,
 h2,
 h3,
@@ -272,4 +274,57 @@ footer nav a {
 }
 .img1 {
   padding: 2% 28.5%;
+}
+.img2 {
+  padding: 2% 28.5%;
+}
+.container .about-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.topimg {
+  display: flex;
+  justify-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  justify-content: space-between;
+}
+.work {
+  margin-left: 47%;
+  margin-top: -17.5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+p {
+  text-align: left;
+}
+.b1 {
+  border-radius: 10px;
+  padding: 10px;
+}
+.bottomimg {
+  padding-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: -5%;
+}
+.txt2 {
+  display: flex;
+  justify-content: row;
+}
+.img4 {
+  margin-right: 11.3%;
+}
+.end {
+  padding: 5% 0;
+}
+.txt10 {
+  padding-left: 5%;
+}
+.p1 {
+  border-bottom: 1px dashed black;
 }
